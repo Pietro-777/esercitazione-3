@@ -1,11 +1,11 @@
-  .menuWrapper ul{
+.menuWrapper ul{
     list-style: none;
     padding: 0;
     display: flex;
     text-decoration: none;
-    justify-content: flex-end;
   }
   
   .menuWrapper li{
-    padding-left: 54px;
+    margin-top: 87px;
+    margin-left: 35px;
   }
