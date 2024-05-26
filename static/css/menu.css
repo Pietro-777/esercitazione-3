@@ -3,22 +3,38 @@
     padding: 0;
     display: flex;
     text-decoration: none;
-  }
+}
   
-  .menuWrapper li{
-    margin-top: 87px;
-    margin-left: 35px;
-  }
+.menuWrapper li{
+  margin-top: 85px;
+  margin-right: 27px;
+  margin: 54px;
+}
 
-  .logoWrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 35px;
+.logoWrapper{
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+html{
+  margin: 0;
+  padding: 0;
 }
 
 body{
   margin: 0;
-  border: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menuWrapper a{
+  color: white;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-size: 20px;
 }
