@@ -1,0 +1,32 @@
+.titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titolo h1{
+    font-size: 80px;
+    color: white;
+    border-bottom: 3px solid #343434;
+    border-top:  3px solid #343434;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.subtitle{
+    color: white;
+    text-align: center;
+    width: 937px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "Hoefler Text", serif;
+    font-style: normal;
+}
+
+

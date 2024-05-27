@@ -1,0 +1,18 @@
+.bottom-link{
+    padding-top: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 35px;
+}
+
+.bottom-link li{
+    list-style: none;
+    padding-left: 67.5px;
+}
+
+.bottom-link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}

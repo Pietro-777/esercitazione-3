@@ -1,11 +1,14 @@
 .contenitore{
     width: 100vw; /* larghezza: 100% della larghezza della viewport (100% viewport width)*/
     min-height: 100vh; /* larghezza: 100% dell'altezza della viewport (100% viewport height)*/
-    background-image: url(/static/css/img/test.jpg);
+    background-image: url(/static/img/test.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -20,3 +23,4 @@
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0.4234068627450981) 48%, rgba(0,0,0,0) 100%);
 }
+
