@@ -1,7 +1,7 @@
 .contenitore{
     width: 100vw; /* larghezza: 100% della larghezza della viewport (100% viewport width)*/
     min-height: 100vh; /* larghezza: 100% dell'altezza della viewport (100% viewport height)*/
-    background-image: url(../img/test.jpg);
+    background-image: url("../img/test.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
